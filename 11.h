@@ -14,3 +14,5 @@ void movesharp();
 void for_tuto();
 void sum100(); void sharpani();
 void comma(); void omp_sum();
+void relectsharp();
+void triangle();

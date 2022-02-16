@@ -182,9 +182,11 @@ int main()
 	//movesharp();
 	//for_tuto();
 	//sum100();
-	omp_sum();
+	//omp_sum();
 	//sharpani();
 	//comma();
+	//relectsharp();
+	triangle();
 
 	return 0;
 }

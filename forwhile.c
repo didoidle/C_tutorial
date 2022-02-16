@@ -2,6 +2,7 @@
 #include "cursor.h"
 #include <omp.h>
 #include <time.h>
+#include <conio.h>
 
 #pragma warning(disable:4996)
 
@@ -99,4 +100,47 @@ void omp_sum()
 	time1 = (end - start);
 	printf("гу = %lld /// %f", sum, time1);
 	
+}
+
+void relectsharp()
+{
+	int x = 40, y = 12;
+	int dx = 1, dy = 1;
+
+	clrscr(); showcursor();
+	while (kbhit() == FALSE) {
+		gotoxy(x, y); putch(' ');
+		x += dx;
+		y += dy;
+		gotoxy(x, y); putch('#');
+		if (x == 79 || x == 0) {
+			dx = -dx;
+		}
+		if (y == 24 || y == 0) {
+			dy = -dy;
+		}
+		delay(30);
+	}
+}
+void triangle()
+{
+	for (int a = 1; a <= 20; a++) {
+		for (int b = 1; b <= 20 - a; b++) {
+			if (a <= b / 2 || b < a)
+				printf("*");
+			else if (a < b)
+				printf(" ");
+			else
+				printf("*");
+		}
+		for (int b = 1; b <= a * 2 - 1; b++) {
+			if (a < b)
+				printf("*");
+			else if (a <= b  && b > a)
+				printf("*");
+			else
+				printf(" ");
+		}
+		puts("");
+	}
 }
