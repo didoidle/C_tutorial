@@ -27,6 +27,9 @@
     <ClCompile Include="movesharp.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="forwhile.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="cursor.h">

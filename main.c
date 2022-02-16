@@ -180,7 +180,11 @@ int main()
 	//casefall();
 	//grade();
 	//movesharp();
-	for_tuto();
+	//for_tuto();
+	//sum100();
+	omp_sum();
+	//sharpani();
+	//comma();
 
 	return 0;
 }
