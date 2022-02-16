@@ -179,7 +179,8 @@ int main()
 	switch_tuto();*/
 	//casefall();
 	//grade();
-	movesharp();
+	//movesharp();
+	for_tuto();
 
 	return 0;
 }
