@@ -2,7 +2,9 @@
 #include <conio.h>
 #include "cursor.h"
 #pragma warning(disable:4996)
-
+/// <summary>
+/// 
+/// </summary>
 void movesharp()
 {
 	int x = 40, y = 10;
