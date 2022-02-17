@@ -189,7 +189,7 @@ int main()
 	//relectsharp();
 	//triangle();
 	//printf("%d\n",Getsum(10, 20));
-	printf("%d", Getday());
+	//printf("%d", Getday());
 
 	return 0;
 }
