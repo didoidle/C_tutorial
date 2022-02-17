@@ -142,7 +142,7 @@
   <ItemGroup>
     <ClCompile Include="cbr.cpp" />
     <ClCompile Include="forwhile.c" />
-    <ClCompile Include="main.c" />
+    <ClCompile Include="main.cpp" />
     <ClCompile Include="11.c" />
     <ClCompile Include="11.h" />
     <ClCompile Include="movesharp.c" />

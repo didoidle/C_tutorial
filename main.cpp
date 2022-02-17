@@ -190,6 +190,9 @@ int main()
 	//triangle();
 	//printf("%d\n",Getsum(10, 20));
 	//printf("%d", Getday());
+	int a = 10, b = 20;
+	call_by_ref1(a, b);
+	call_by_ref2(&a, &b);
 
 	return 0;
 }

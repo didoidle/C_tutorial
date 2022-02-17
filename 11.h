@@ -18,3 +18,6 @@ void relectsharp();
 void triangle();
 //함수###############################
 int Getsum(int a, int b); int Getday();
+//참조###############################
+void call_by_ref1(int& a, int& b);
+void call_by_ref2(int* a, int* b);
