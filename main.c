@@ -13,7 +13,7 @@
 //	SetConsoleCursorInfo(GetStdHandle(STD_OUTPUT_HANDLE),&CurInfo); }
 
 #pragma warning(disable:4996)
-
+//123123123
 
 
 //int cursor_tuto()
