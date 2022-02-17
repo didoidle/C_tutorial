@@ -16,3 +16,5 @@ void sum100(); void sharpani();
 void comma(); void omp_sum();
 void relectsharp();
 void triangle();
+//ÇÔ¼ö###############################
+int Getsum(int a, int b); int Getday();

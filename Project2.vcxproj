@@ -145,6 +145,7 @@
     <ClCompile Include="11.c" />
     <ClCompile Include="11.h" />
     <ClCompile Include="movesharp.c" />
+    <ClCompile Include="tuto_function.c" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="cursor.h" />
