@@ -15,6 +15,7 @@
 #pragma warning(disable:4996)
 
 
+
 //int cursor_tuto()
 //{
 //	printf("3초 후에 화면을 지웁니다.\n");
