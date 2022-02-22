@@ -142,10 +142,12 @@
   <ItemGroup>
     <ClCompile Include="cbr.cpp" />
     <ClCompile Include="forwhile.c" />
-    <ClCompile Include="main.cpp" />
+    <ClCompile Include="fread_tutorial.c" />
+    <ClCompile Include="main.c" />
     <ClCompile Include="11.c" />
     <ClCompile Include="11.h" />
     <ClCompile Include="movesharp.c" />
+    <ClCompile Include="prepro_tuto.c" />
     <ClCompile Include="tuto_function.c" />
   </ItemGroup>
   <ItemGroup>

@@ -19,5 +19,9 @@ void triangle();
 //함수###############################
 int Getsum(int a, int b); int Getday();
 //참조###############################
-void call_by_ref1(int& a, int& b);
-void call_by_ref2(int* a, int* b);
+//void call_by_ref1(int& a, int& b); cpp확장자로 컴파일 가능
+//void call_by_ref2(int* a, int* b);
+void drawbox1(); void OutBoxMessage(char* str);
+void putchs(int ch, int n); void OutBoxMessage2(char* str);
+//파일 입출력#########################
+void fread_tuto();

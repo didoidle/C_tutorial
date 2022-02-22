@@ -15,7 +15,7 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="main.cpp">
+    <ClCompile Include="main.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
     <ClCompile Include="11.h">
@@ -34,6 +34,12 @@
       <Filter>소스 파일</Filter>
     </ClCompile>
     <ClCompile Include="cbr.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="prepro_tuto.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="fread_tutorial.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
   </ItemGroup>
