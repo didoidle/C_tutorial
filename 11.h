@@ -1,4 +1,5 @@
-//Á¶°Ç¹®#############################
+#include "util.c"
+//ï¿½ï¿½ï¿½Ç¹ï¿½#############################
 void if_tuto();
 void ifelse_tuto();
 void ifdlseif_tuto();
@@ -10,18 +11,18 @@ void switch_tuto();
 void casefall();
 void grade();
 void movesharp();
-//¹Ýº¹¹®#############################
+//ï¿½Ýºï¿½ï¿½ï¿½#############################
 void for_tuto();
 void sum100(); void sharpani();
 void comma(); void omp_sum();
 void relectsharp();
 void triangle();
-//ÇÔ¼ö###############################
+//ï¿½Ô¼ï¿½###############################
 int Getsum(int a, int b); int Getday();
-//ÂüÁ¶###############################
-//void call_by_ref1(int& a, int& b); cppÈ®ÀåÀÚ·Î ÄÄÆÄÀÏ °¡´É
+//ï¿½ï¿½ï¿½ï¿½###############################
+//void call_by_ref1(int& a, int& b); cppÈ®ï¿½ï¿½ï¿½Ú·ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½
 //void call_by_ref2(int* a, int* b);
 void drawbox1(); void OutBoxMessage(char* str);
 void putchs(int ch, int n); void OutBoxMessage2(char* str);
-//ÆÄÀÏ ÀÔÃâ·Â#########################
+//ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½#########################
 void fread_tuto();

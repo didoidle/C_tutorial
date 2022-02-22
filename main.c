@@ -18,11 +18,11 @@
 
 //int cursor_tuto()
 //{
-//	printf("3ÃÊ ÈÄ¿¡ È­¸éÀ» Áö¿ó´Ï´Ù.\n");
+//	printf("3ï¿½ï¿½ ï¿½Ä¿ï¿½ È­ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½Ï´ï¿½.\n");
 //	delay(3000);
 //	clrscr();
 //	gotoxy(20, 10);
-//	printf("È­¸é Áß¾Ó¿¡ ¹®ÀÚ¿­À» Ãâ·ÂÇÕ´Ï´Ù.\n");
+//	printf("È­ï¿½ï¿½ ï¿½ß¾Ó¿ï¿½ ï¿½ï¿½ï¿½Ú¿ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½Õ´Ï´ï¿½.\n");
 //}
 
 //int pricision()
@@ -63,23 +63,23 @@
 //	float height;
 //	char name[32];
 //
-//	printf("³ªÀÌ¸¦ ÀÔ·ÂÇÏ¼¼¿ä : ");
+//	printf("ï¿½ï¿½ï¿½Ì¸ï¿½ ï¿½Ô·ï¿½ï¿½Ï¼ï¿½ï¿½ï¿½ : ");
 //	scanf("%d", &age);
-//	printf("Å°¸¦ ÀÔ·ÂÇÏ¼¼¿ä : ");
+//	printf("Å°ï¿½ï¿½ ï¿½Ô·ï¿½ï¿½Ï¼ï¿½ï¿½ï¿½ : ");
 //	scanf("%f", &height);
-//	printf("ÀÌ¸§À» ÀÔ·ÂÇÏ¼¼¿ä : ");
+//	printf("ï¿½Ì¸ï¿½ï¿½ï¿½ ï¿½Ô·ï¿½ï¿½Ï¼ï¿½ï¿½ï¿½ : ");
 //	scanf("%s", name, sizeof(name) / sizeof(name[0]));
 //
-//	printf("¾È³çÇÏ¼¼¿ä. %d»ì, Å° %.2fcmÀÇ %s´Ô\n", age, height, name);
+//	printf("ï¿½È³ï¿½ï¿½Ï¼ï¿½ï¿½ï¿½. %dï¿½ï¿½, Å° %.2fcmï¿½ï¿½ %sï¿½ï¿½\n", age, height, name);
 //}
 //int scanf_tuto2()
 //{
 //	int width, height;
 //
-//	printf("»ç°¢ÇüÀÇ Æø°ú ³ôÀÌ¸¦ ÀÔ·ÂÇÏ¼¼¿ä : ");
+//	printf("ï¿½ç°¢ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½Ì¸ï¿½ ï¿½Ô·ï¿½ï¿½Ï¼ï¿½ï¿½ï¿½ : ");
 //	scanf("%d%d", &width, &height);
 //
-//	printf("»ç°¢ÇüÀÇ ¸éÀûÀº %dÀÔ´Ï´Ù. \n", width * height);
+//	printf("ï¿½ç°¢ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ %dï¿½Ô´Ï´ï¿½. \n", width * height);
 //}
 //
 //int arithmatic()
@@ -99,7 +99,7 @@
 //	int d = value / 10 % 10;
 //	int n = value % 10;
 //
-//	printf("%d¹é%d½Ê%d\n", h, d, n);
+//	printf("%dï¿½ï¿½%dï¿½ï¿½%d\n", h, d, n);
 //}
 //
 //int prepost()
@@ -108,11 +108,11 @@
 //
 //	a = 3;
 //	b = ++a;
-//	printf("ÀüÀ§ÇüÀ¸·Î ½èÀ» ¶§ : %d\n", b);
+//	printf("ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ : %d\n", b);
 //
 //	a = 3;
 //	b = a++;
-//	printf("ÈÄÀ§ÇüÀ¸·Î ½èÀ» ¶§ : %d\n", b);
+//	printf("ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ : %d\n", b);
 //}
 //
 //int priority()
@@ -130,8 +130,8 @@
 //{
 //	int sum = 427;
 //	int num = 5;
-//	printf("Æò±Õ = %d\n", sum / num); 
-//	printf("Æò±Õ = %d\n", sum / (double)num);
+//	printf("ï¿½ï¿½ï¿½ = %d\n", sum / num); 
+//	printf("ï¿½ï¿½ï¿½ = %d\n", sum / (double)num);
 //}
 //int intconvert()
 //{
@@ -149,6 +149,8 @@
 //	int b = a + d;
 //	printf("b = %d\n", b);
 //}
+extern int utilglobal;
+
 int main()
 {
 	/*cursor_tuto();
@@ -168,7 +170,7 @@ int main()
 	int* pi;
 
 	pi = &value;
-	printf("valueÀÇ °ªÀº %dÀÔ´Ï´Ù.\n", *pi);*/
+	printf("valueï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ %dï¿½Ô´Ï´ï¿½.\n", *pi);*/
 
 	/*if_tuto();
 	ifelse_tuto();
@@ -194,9 +196,10 @@ int main()
 	call_by_ref1(a, b);
 	call_by_ref2(&a, &b);*/
 	//drawbox1();
-	/*OutBoxMessage2("¤²¤²¤²");
-	OutBoxMessage2("¤±¤¤¾î¤Ó¤¿wwwwwwwwwww¤Ã");*/
-	fread_tuto();
+	/*OutBoxMessage2("ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½");
+	OutBoxMessage2("ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ó¤ï¿½wwwwwwwwwwwï¿½ï¿½");*/
+	//fread_tuto();
+	printf("utilglobal = %d", utilglobal);
 
 
 	return 0;
